@@ -37,9 +37,13 @@ python manage.py test
 
 API ENDPOINT'S
 
-Method     Endpoint        Operation
-GET       api/tasks/    Get all tasks
-POST      api/tasks/     Create new Task
-GET       api/tasks/<pk> Get a task
-PUT.      api/tasks/<pk> Update a task
-DELETE    api/tasks/<pk> Delete a task
+
+`GET    api/tasks/    Get all tasks`
+
+`POST   api/tasks/     Create new Task`
+
+`GET   api/tasks/<pk> Get a task`
+
+`PUT   api/tasks/<pk> Update a task`
+
+`DELETE  api/tasks/<pk> Delete a task`
