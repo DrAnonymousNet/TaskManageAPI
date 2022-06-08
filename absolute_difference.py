@@ -3,8 +3,6 @@ def main(n, arr):
 	arr = arr.split(" ")
 	if len(arr) > n:
 		arr = arr[:n]
-	
-		
 	smallest = float('inf')
 	for i in arr:
 		for j in arr:
