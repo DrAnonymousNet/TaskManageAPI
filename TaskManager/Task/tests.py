@@ -6,7 +6,7 @@ from .models import Task
 from .serializers import *
 
 class CreateNewTaskTest(APITestCase):
-    """ Test module for inserting a new puppy """
+    """ Test module for inserting a new Task """
 
     def setUp(self):
         self.valid_payload = {
@@ -98,7 +98,7 @@ class GetSingleTask(APITestCase):
 
 
 class UpdateSingleTaskTest(APITestCase):
-    """ Test module for updating an existing puppy record """
+    """ Test module for updating an existing Task record """
 
     def setUp(self):
         self.book_6 = Task.objects.create(title="BOOK 6", state ="draft")
@@ -189,7 +189,7 @@ class UpdateSingleTaskTest(APITestCase):
 
 
 class DeleteSingleTaskTest(APITestCase):
-    """ Test module for deleting an existing puppy record """
+    """ Test module for deleting an existing Task record """
 
     def setUp(self):
         self.task_1 = Task.objects.create(title = "Task 1")
