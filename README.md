@@ -11,15 +11,20 @@
 $ python3 -m venv venv
 ```
 
-3. Install the Required Packages
+3. Activate Virtual Environment
+```
+$ source venv/bin/activate
+```
+
+4. Install the Required Packages
 
 ```
 $ pip install -r requirements.txt
 ```
 
-3. Change directory into the TaskManagerAPI/TaskManage
+5. Change directory into the TaskManagerAPI/TaskManage
 
-4. Run the development server
+6. Run the development server
 
 ```
 $ python manage.py runserver
