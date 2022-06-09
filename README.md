@@ -27,6 +27,8 @@ $ python manage.py runserver
 
 # TEST 
 
+> Test Cases in Task/test.py
+
 To run Test:
 
 ```
